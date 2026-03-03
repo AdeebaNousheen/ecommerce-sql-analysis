@@ -28,4 +28,5 @@ SELECT c.name,
 FROM customers c
 JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.name
+
 HAVING total_orders > 1;
