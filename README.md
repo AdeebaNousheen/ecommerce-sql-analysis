@@ -18,4 +18,5 @@ Designed and implemented a relational database system to simulate an e-commerce 
 - GROUP BY
 - HAVING
 - Aggregate Functions
+
 - Foreign Keys
