@@ -1,0 +1,33 @@
+USE ecommerce_db;
+
+-- Customers Data
+INSERT INTO customers VALUES
+(1, 'Aisha Khan', 'aisha@gmail.com', 'Hyderabad', '2024-01-10'),
+(2, 'Rahul Verma', 'rahul@gmail.com', 'Mumbai', '2024-02-15'),
+(3, 'Sneha Reddy', 'sneha@gmail.com', 'Bangalore', '2024-03-05');
+
+-- Products Data
+INSERT INTO products VALUES
+(1, 'Laptop', 'Electronics', 60000.00),
+(2, 'Headphones', 'Electronics', 2000.00),
+(3, 'Shoes', 'Fashion', 3000.00),
+(4, 'Watch', 'Accessories', 5000.00);
+
+-- Orders Data
+INSERT INTO orders VALUES
+(1, 1, '2024-04-01'),
+(2, 2, '2024-04-05'),
+(3, 1, '2024-04-10');
+
+-- Order Items Data
+INSERT INTO order_items VALUES
+(1, 1, 1, 1),
+(2, 1, 2, 2),
+(3, 2, 3, 1),
+(4, 3, 4, 1);
+
+-- Payments Data
+INSERT INTO payments VALUES
+(1, 1, 'UPI', '2024-04-01'),
+(2, 2, 'Credit Card', '2024-04-05'),
+(3, 3, 'Debit Card', '2024-04-10');
