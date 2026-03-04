@@ -26,5 +26,6 @@ Designed and implemented a relational database system to simulate an e-commerce 
 
 ### Revenue by Category
 
-! [Revenue Chart](revenue_chart.png)
+![Revenue Chart](revenue_chart.png)
+
 
