@@ -20,3 +20,10 @@ Designed and implemented a relational database system to simulate an e-commerce 
 - Aggregate Functions
 
 - Foreign Keys
+
+
+## Visualization
+
+### Revenue by Category
+
+! [Revenue Chart] (revenue_chart.png)
